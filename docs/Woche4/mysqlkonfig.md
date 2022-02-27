@@ -43,13 +43,33 @@ Ich denke diese Grafik sollte es zeigen:
 
 ### Benutzer und Berechtigungen
 1. Erstellen Sie eine Demo-Datenbank mit zwei Tabellen
-2. Root-Benutzer konfiguriert (Login/Passwort)
-3. Benutzer konfiguriert (Login/Passwort/Berechtigung auf Datenbank eingeschränkt <- ein Anwendungsbenutzer)
-4. Admin-Benutzer konfiguriert (Login/Passwort/Berechtigung auf Datenbank eingeschränkt)
-5. Verfizieren Sie Ihre Konfiguration und speichern Sie das Resultat in Ihrer Dokumentation
+Befele: 
+`mysql> create database demo;`  
+`mysql> use database demo`  
+`mysql> use demo`  
+`mysql> create table test (id int);`  
+`mysql> create table test2 (id int, name VARCHAR(20));`  
 
+2. Root-Benutzer konfiguriert (Login/Passwort)
+Befehle:  
+`ALTER USER 'root'@'localhost' IDENTIFIED BY 'xxx';`  
+`flush privileges;`  
+3. Benutzer konfiguriert (Login/Passwort/Berechtigung auf Datenbank eingeschränkt <- ein Anwendungsbenutzer)
+Befehle:  
+`CREATE USER 'sandro'@'localhost' IDENTIFIED BY 'xxx';`  
+`GRANT select ON demo.test TO 'sandro'@'localhost';`  
+4. Admin-Benutzer konfiguriert (Login/Passwort/Berechtigung auf Datenbank eingeschränkt)
+Befehle:  
+`select * from mysql.user;`  
+`CREATE USER 'admin'@'localhost' IDENTIFIED BY 'xxx';`  
+`GRANT ALL ON demo.test TO 'admin'@'localhost';`  
+5. Verfizieren Sie Ihre Konfiguration und speichern Sie das Resultat in Ihrer Dokumentation
+Oben gemacht.  
 ### Server-Konfiguration
 1. Transaktions-Isolation : Verfizieren Sie welche Transaktions-Isolation auf Ihrem Server aktiviert ist. Dokumentieren Sie, was das bezüglich den Anomalien für Ihre Installation bedeutet.
+Befehl:  
+`SELECT @@global.transaction_ISOLATION;`  
+Resultat: REPEATABLE-READ -> Dirty Read sind unmöglich, Lost Updates sind unmöglich, Nonrepeatable Read sind unmöglich und Phatom Read sind möglich.
 2. Exportieren Sie die aktuelle Liste an System-Variablen
 3. Netzwerkkonfiguration DBMS-Server anpassen und dokumentieren
 
