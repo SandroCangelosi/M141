@@ -1,3 +1,7 @@
 * [Woche 1 - Geschichte DB](Woche1/geschichtedb.md)
 * [Woche 1 - Dokumentationsauftrag](Woche1/dokumentationsauftrag.md)
 * [Woche 2 - Transaktion](Woche2/transaktion.md)
+* [Woche 3 - MySQL Installation](Woche3/mysql.md)
+* [Woche 3 - ERM und ERD](Woche3/erm_erd.md)
+* [Woche 4 - Normalisierung](Woche3/normalisierung.md)
+* [Woche 4 - MySQL Konfiguration](Woche4/mysqlkonfig.md)

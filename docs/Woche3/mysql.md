@@ -1,6 +1,5 @@
-# MySQL
-
-## Installation eines RDBMS | Mysql Auftrag
+# MySQL Installation
+## Installation eines RDBMS | MySQL Auftrag
 ### Recherche zu MySQL:  
 1. Hersteller
     - MySQL wurde von MySQL AB im Jahr 1994 entwickelt.  
