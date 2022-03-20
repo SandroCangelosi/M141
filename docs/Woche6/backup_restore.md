@@ -111,3 +111,7 @@ Noch effizienter geht es mit zippen:
 ssh user@SERVER1 'mysqldump --single-transaction -u root -pPASS DBNAME | gzip -9' 
     | ssh user@SERVER2 'gunzip | mysql -u USER -pPASS NEWDB'
 ```
+
+## Info
+Backups können zum Beispiel mittel ```crontab``` automatisiert werden.  
+So das z. B. jede Woche am Montag ein Full-Backup von einer Applikation gemacht wird.  

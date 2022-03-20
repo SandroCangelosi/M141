@@ -61,3 +61,7 @@ mysqldump DATENBANK TABELLE --fields-terminated-by ',' \
 --fields-enclosed-by '"' --fields-escaped-by '\' \
 --no-create-info --tab /var/lib/mysql-files/
 ```
+
+# Percona XtraBackup  
+Das Percona XtraBackup Tool kann ein hot Backup von allen MySQL Daten machen, währenddem das System am laufen ist.  
+Percona XtraBackup ist gratis, online erhältlich und Open Source.  

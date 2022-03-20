@@ -12,3 +12,5 @@
 * [Woche 5 - Joins](Woche5/joins.md)
 * [Woche 6 - Import und Export](Woche6/import_export.md)
 * [Woche 6 - Backup und Restore](Woche6/backup_restore.md)
+* [Woche 7 - Etherpad](Woche7/etherpad.md)
+* [Woche 7 - Sicherheit](Woche7/berechtigung.md)
