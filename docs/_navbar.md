@@ -21,7 +21,11 @@
     * [Woche 5 - Indexing](Woche5/index.md)
     * [Woche 5 - Datentypen](Woche5/datentypen.md)
     * [Woche 5 - Joins](Woche5/joins.md)
+    * [Woche 7 - Sicherheit](Woche7/berechtigung.md)
 
 * [Daten - Import / Export / Backup / Restore](Woche6/import_export.md)
     * [Woche 6 - Import und Export](Woche6/import_export.md)
     * [Woche 6 - Backup und Restore](Woche6/backup_restore.md)
+
+* [Praxis Beispiel](Woche7/etherpad.md)
+    * [Woche 7 - Etherpad](Woche7/etherpad.md)

@@ -44,6 +44,10 @@ In der Zeile 211 im File, die Eisntellungen anpassen:
     "charset" : "utf8mb4"
 }
 ```
+***WICHTIG: Die Kommentar Zeichen müssen entfernt werden !!!***
+
+So sieht es im File aus:  
+![Settings.json Beispiel](settings.png) 
 
 ## Plugins installieren
 Zusätzlich könnte man noch Plugins installieren:  
@@ -60,6 +64,14 @@ src/bin/run.sh
 Dann kann man mittel [http://localhost:9001](http://localhost:9001) Etherpad öffnen, dann sieht es bei der erfolreichen Installation folgendermassen aus:  
 ![Etherpad Beispiel](etherpad.png)  
 
+So sieht die Datenbank Struktur aus:  
+![DB Beispiel](db.png) 
+
+Darin sind zwei Spalten, welche als Key und Value verwendet werden:  
+![Spalten Beispiel](columns.png) 
+
+Die Daten darin sehen dann so aus:  
+![Daten Beispiel](data.png) 
 ## Aufgabe: Diskutieren Sie die Security-Angriffsvektoren anhand der Applikation Etherpad
 - Applikation in der DMZ einsetzen.  
 - Berechtigung auf die Einstellungen geben.  

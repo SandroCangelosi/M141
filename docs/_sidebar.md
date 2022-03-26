@@ -14,3 +14,6 @@
 * [Woche 6 - Backup und Restore](Woche6/backup_restore.md)
 * [Woche 7 - Etherpad](Woche7/etherpad.md)
 * [Woche 7 - Sicherheit](Woche7/berechtigung.md)
+* [Woche 8 - Theorie](Woche8/theorie.md)
+* [Woche 8 - Sakila](Woche8/sakila.md)
+* [Woche 8 - Chat-Applikation](Woche8/chat.md)
