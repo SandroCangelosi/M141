@@ -22,6 +22,7 @@
     * [Woche 5 - Datentypen](Woche5/datentypen.md)
     * [Woche 5 - Joins](Woche5/joins.md)
     * [Woche 7 - Sicherheit](Woche7/berechtigung.md)
+    * [Woche 8 - Theorie Views, Storage Procedures](Woche8/theorie.md)
 
 * [Daten - Import / Export / Backup / Restore](Woche6/import_export.md)
     * [Woche 6 - Import und Export](Woche6/import_export.md)
@@ -29,3 +30,7 @@
 
 * [Praxis Beispiel](Woche7/etherpad.md)
     * [Woche 7 - Etherpad](Woche7/etherpad.md)
+    * [Woche 8 - Chat Auftrag](Woche8/chat.md)
+    * [Woche 8 - Sakila Auftrag](Woche8/sakila.md)
+
+

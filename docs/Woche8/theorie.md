@@ -64,12 +64,14 @@ Dazu werden gezielte Redundanzen für die Geschwindigkeit eingebaut.
 ### Stored Procedures erstellen
 Beispiel:  
 ```sql
+DELIMITER //
 CREATE PROCEDURE zurueckgabetabelle (OUT ret_wert INT)
 
 BEGIN
 SELECT COUNT(*) INTO ret_wert from tabelle;
-END;
+END //
 
+DELIMITER ;
 ```
 *In den Klammern wird definiert ob es eine Eingabe oder Ausgabe Parameter ist, dazu wird der Wert mit dem Datentyp definiert*
 
@@ -106,6 +108,14 @@ DROP PROCEDURE IF EXISTS zurueckgabetabelle;
 Die Stored Procedures beschreiben:  
 ```sql
 SHOW CREATE PROCEDURE name_von_procedure;
+```
+
+### Berechtigung auf eine Storage Procedure geben
+Die Berechtigungen kann man mit dem unterem Befehl geben.  
+
+In Mysql ausführen:  
+```sql
+GRANT EXECUTE ON PROCEDURE db.storage_procedure TO 'user'@'localhost';
 ```
 
 ## Trigger
