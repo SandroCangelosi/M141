@@ -17,3 +17,5 @@
 * [Woche 8 - Theorie](Woche8/theorie.md)
 * [Woche 8 - Sakila](Woche8/sakila.md)
 * [Woche 8 - Chat-Applikation](Woche8/chat.md)
+* [Woche 9 - Performance](Woche9/performance.md)
+* [Woche 9 - Fragenpool](Woche9/fragen.md)

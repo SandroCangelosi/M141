@@ -5,7 +5,7 @@ Grundidee:
 1. Sensitive Daten zu schützen bzw. nicht allen Zugänglich zu machen.  
 2. Komplizierte Anfragen in eine View zusammenfassen.  
 
-Views sind Sichten welche auf eine Tabelle oder Views Abfragen ausführen.
+Views sind Sichten welche auf eine Tabelle oder Views Abfragen ausführen. Sie werden also verwedet um Daten anzeigen.
 
 Es können Spalten und Attribute mit einer View freigegeben bzw. gesperrt werden. Aber keine einzelnen Datensätze.
 
@@ -57,7 +57,7 @@ SELECT * FROM Kundenansicht;
 ```
 
 ## Stored Procedures
-Stored Procedures werden für die Sicherheit verwendet.  
+Stored Procedures werden für die Sicherheit verwendet mit dem Sinn, das Daten geändert werden können.  
 Denn der Client kann in der Regel keine DELETE -, UPDATE - oder INSERT Rechte bekommt.  
 Dazu werden gezielte Redundanzen für die Geschwindigkeit eingebaut.  
 
@@ -119,7 +119,8 @@ GRANT EXECUTE ON PROCEDURE db.storage_procedure TO 'user'@'localhost';
 ```
 
 ## Trigger
-Ein Trigger ist ein benutzerdefinierter SQL-Befehl, der während eines INSERT -, DELETE - oder UPDATE -Vorgangs automatisch aufgeführt wird.
+Ein Trigger ist ein benutzerdefinierter SQL-Befehl, der während eines INSERT -, DELETE - oder UPDATE -Vorgangs automatisch aufgeführt wird.  
+Der Trigger wird ausgeführt, wenn ein bestimmter Code Abschnitt durchlaufen ist.  Die Triggers werden hautpsächlich für Redundazen verwednet.  
 
 ## Funktionen 
 Um alle Funktionen einer DB anzeigen zu lassen kann dieser Befehl verwendet werden:  
