@@ -18,4 +18,7 @@
 * [Woche 8 - Sakila](Woche8/sakila.md)
 * [Woche 8 - Chat-Applikation](Woche8/chat.md)
 * [Woche 9 - Performance](Woche9/performance.md)
+* [Woche 9 - Performance Übung](Woche9/uebung.md)
 * [Woche 9 - Fragenpool](Woche9/fragen.md)
+* [Woche 10 - MongoDB](Woche10/mongodb.md)
+* [Woche 10 - MongoDB Basics](Woche10/mongodbbasics.md)
