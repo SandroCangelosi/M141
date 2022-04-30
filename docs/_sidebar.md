@@ -21,4 +21,6 @@
 * [Woche 9 - Performance Übung](Woche9/uebung.md)
 * [Woche 9 - Fragenpool](Woche9/fragen.md)
 * [Woche 10 - MongoDB](Woche10/mongodb.md)
-* [Woche 10 - MongoDB Basics](Woche10/mongodbbasics.md)
+* [Woche 10 - MongoDB Grundlagen](Woche10/mongodbbasics.md)
+* [Woche 11 - Javascript](Woche11/javascript.md)
+* [Woche 11 - Übung](Woche11/auftraege.md)

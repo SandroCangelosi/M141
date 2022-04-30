@@ -32,7 +32,9 @@
 
 * [MongoDB](Woche10/mongodb.md)
     * [Woche 10 - MongoDB](Woche10/mongodb.md)
-    * [Woche 10 - MongoDB Basics](Woche10/mongodbbasics.md)
+    * [Woche 10 - MongoDB Grundlagen](Woche10/mongodbbasics.md)
+    * [Woche 11 - Javascript](Woche11/javascript.md)
+    * [Woche 11 - Übung](Woche11/auftraege.md)
 
 * [Praxis Beispiel](Woche7/etherpad.md)
     * [Woche 7 - Etherpad](Woche7/etherpad.md)

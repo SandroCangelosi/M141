@@ -1,4 +1,4 @@
-# MongoDB Basics 
+# MongoDB Grundlagen 
 ## Datenbank erstellen und benutzen
 Mit diesem Befehl wird eine Datenbank erstellt und ausgewählt.  
 Falls sie bereits erstellt wurde, wird sie nur ausgewählt.  
@@ -82,3 +82,7 @@ Nach der Installtion, konnte ich mich mit der Datenbank verbinden.
 Die Dokumente wurden aufgelistet und ich konnte nach Werten suchen.  
 ![MongoDB Compass](compass2.png)
 ![MongoDB Compass](compass3.png)
+
+## Weitere GUIs
+Natürlich gibt es noch viele weitere GUIs, wie hier in Wikipedia beschrieben:  
+[https://de.wikipedia.org/wiki/MongoDB](https://de.wikipedia.org/wiki/MongoDB) -> Grafische Oberflächen
