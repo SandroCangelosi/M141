@@ -8,7 +8,7 @@ Ausgabe:
 
 ### 2. Auftrag : Queries  
 Listen Sie alle Städte aus der Timezone "Europa" (alle Zeitzonen von Europa) auf.  
-```sql
+```javascript
 db.towns.find( { timezone : "Europe/Andorra"} )
 ```
 Ausgabe:  
@@ -16,7 +16,7 @@ Ausgabe:
 
 ### 3. Query Ausführen  
 Führen Sie die folgende Query auf Ihrer Datenbank aus:  
-```sql
+```javascript
 db.cities.aggregate([
     {
     $match: {
@@ -44,7 +44,7 @@ Was macht die Query?
 
 ### 4. Query Ausführen  
 Führen Sie die folgende Query auf Ihrer Datenbank aus:
-```sql
+```javascript
 db.cities.aggregate([
     {
     $match: {

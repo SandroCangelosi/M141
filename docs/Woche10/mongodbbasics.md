@@ -2,20 +2,20 @@
 ## Datenbank erstellen und benutzen
 Mit diesem Befehl wird eine Datenbank erstellt und ausgewählt.  
 Falls sie bereits erstellt wurde, wird sie nur ausgewählt.  
-```
+```javascript
 use DATENBANK
 ```
 
 ## Welches ist die aktuell Ausgewählte Datenbank?
 Mit diesem Befehl wird augelistet, welche Datenbank aktuell ausgewählt ist:  
-```
+```javascript
 db
 ```
 
 ## Datenbanken auflisten
 Um alle Datenbanken aufzulisten, wird dieser Befehl verwendet:  
 *Leere DB werden nicht aufgelistet*  
-```
+```javascript
 show dbs
 ```
 
@@ -23,24 +23,24 @@ show dbs
 Collection -> Das selbe wie eine Tabelle in MySQL.  
 
 Hier ein simples Beispiel (In der Klammer ist der Namer der Collection):
-```
+```javascript
 db.createCollection("Testcollection")
 ```
 
 Hier ein Beispiel mit einem Datensatz:  
-```
+```javascript
 db.Testcollection.insert({ Name: "Honey", Alter: 25, Autos: [ "Audi R8" ] })
 ```
 
 ## Collections auflisten
 Mit diesem Befehl können Collections aufgelistet werden:  
-```
+```javascript
 show collections
 ```
 
 ## Collection löschen
 Collections könenn ganz einfach so gelöscht werden:  
-```
+```javascript
 db.Testcollection.drop()
 ```
 
@@ -48,12 +48,12 @@ db.Testcollection.drop()
 Dokumente -> Datensatz in MySQL  
 
 Mit `find` kann nach einem bestimmten Dokument gesucht werden:  
-```
+```javascript
 db.Testcollection.find( { Name: "Honey", Alter: 25 } )
 ```
 
 Wenn alle Dokumente aufgelistet werden möchten, kann dieser Befehl verwendet werden:  
-```
+```javascript
 db.Testcollection.find( {} )
 ```
 
@@ -61,13 +61,13 @@ db.Testcollection.find( {} )
 Falls die Collections noch nicht erstellt wurde, wird automatisch eine neue erstellt.  
 
 Hier wird ein Dokument erstellt:  
-```
+```javascript
 db.Testcollection.insert({ Name: "Honey", Alter: 25, Autos: [ "Audi R8" ] })
 ```
 
 ## Dokumente auf einer Collection löschen
 Mit diesem Befehl können Dokumente gelöscht werden:  
-```
+```javascript
 db.Testcollection.remove ( { Alter: 25 } )
 
 db.Testcollection.remove ( { Alter: 28 , Name : "Honey"}, 1 )
