@@ -41,3 +41,4 @@
     * [Woche 8 - Chat Auftrag](Woche8/chat.md)
     * [Woche 8 - Sakila Auftrag](Woche8/sakila.md)
     * [Woche 9 - Performance Übung](Woche9/uebung.md)
+    * [Woche 12 - Benutzer](Woche12/benutzer.md)
