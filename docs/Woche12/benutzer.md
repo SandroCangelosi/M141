@@ -119,7 +119,7 @@ db.createUser(
     { role: "readWriteAnyDatabase", db: "admin" }
     ]
 }
-)
+) 
 ```
 ### Passen Sie die URI in der Datei server.js entsprechend an
 

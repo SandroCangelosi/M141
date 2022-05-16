@@ -25,3 +25,6 @@
 * [Woche 11 - Javascript](Woche11/javascript.md)
 * [Woche 11 - Übung](Woche11/auftraege.md)
 * [Woche 12 - Benutzer](Woche12/benutzer.md)
+* [Woche 13 - Indexierung und Performance](Woche13/indexing.md)
+* [Woche 13 - Sharding und Replication](Woche13/sharding.md)
+* [Woche 13 - Datenbankdesign](Woche13/datenbankdesign.md)
