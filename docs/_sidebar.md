@@ -28,3 +28,4 @@
 * [Woche 13 - Indexierung und Performance](Woche13/indexing.md)
 * [Woche 13 - Sharding und Replication](Woche13/sharding.md)
 * [Woche 13 - Datenbankdesign](Woche13/datenbankdesign.md)
+* [Woche 14 - Replication bei MySQL](Woche14/replication.md)
