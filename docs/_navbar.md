@@ -22,6 +22,7 @@
     * [Woche 7 - Sicherheit](Woche7/berechtigung.md)
     * [Woche 8 - Theorie Views, Storage Procedures](Woche8/theorie.md)
     * [Woche 9 - Fragenpool](Woche9/fragen.md)
+    * [Woche 14 - Replication bei MySQL](Woche14/replication.md)
 
 * [Daten - Import / Export / Backup / Restore](Woche6/import_export.md)
     * [Woche 6 - Import und Export](Woche6/import_export.md)
@@ -42,3 +43,6 @@
     * [Woche 8 - Sakila Auftrag](Woche8/sakila.md)
     * [Woche 9 - Performance Übung](Woche9/uebung.md)
     * [Woche 12 - Benutzer](Woche12/benutzer.md)
+    * [Woche 14 - Übung zu Replication bei MySQL](Woche14/uebung.md)
+    * [Woche 14 - Übung zu ProxySQL und Spring Boot](Woche14/uebung2.md)
+

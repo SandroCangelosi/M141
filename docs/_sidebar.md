@@ -29,3 +29,5 @@
 * [Woche 13 - Sharding und Replication](Woche13/sharding.md)
 * [Woche 13 - Datenbankdesign](Woche13/datenbankdesign.md)
 * [Woche 14 - Replication bei MySQL](Woche14/replication.md)
+* [Woche 14 - Übung zu Replication bei MySQL](Woche14/uebung.md)
+* [Woche 14 - Übung zu ProxySQL und Spring Boot](Woche14/uebung2.md)

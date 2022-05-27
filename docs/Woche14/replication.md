@@ -34,20 +34,6 @@ Dies Erhöht die Performance besonders für die Read Abfragen. Das Schreiben kan
 * Hohe Lese Lasten (Select Abfragen) -> Replikation mit Read-Pools  
 * Hohe Schreib Lasten (Insert / Update / Delete) -> Sharding 
 
-## Aufträge    
-### Auftrag 1 - Analyse docker-compose.yml  
-Welche Services werden aufgebaut? -> Zeichnen Sie ein kleines Netzwerkdiagramm (irgendwie)  
-![Netzwerkplan Services](netzwerkplan_klein.png)  
-
-Welche Netzwerk werden aufgebaut? -> Erweitern Sie das Diagramm  
-![Netzwerkplan Services und Aufbau](netzwerkplan.png)  
-
-In der Datei config/master.cnf sehen Sie die Konfiguration für den Master-Node. Dokumentieren!  
-![Master Config](master.png)  
-
-In der Datei config/replica.cns sehen Sie die Konfiguration für den Slave-Node. Dokumentieren!  
-![Replica Config](replica.png)  
-
 ## Konfiguration Replikation
 ### Master
 So könnte das Config File aussehen:  
