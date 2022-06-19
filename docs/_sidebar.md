@@ -31,3 +31,4 @@
 * [Woche 14 - Replication bei MySQL](Woche14/replication.md)
 * [Woche 14 - Übung zu Replication bei MySQL](Woche14/uebung.md)
 * [Woche 14 - Übung zu ProxySQL und Spring Boot](Woche14/uebung2.md)
+* [Woche 15 - Fragen zu LB2](Woche15/fragen.md)

@@ -41,6 +41,13 @@ Wenn Daten geholt oder gespeichert werden müssen, werden die von den Storage En
 Ich denke diese Grafik sollte es zeigen:  
 ![Storage Engines](mysql_se.png)  
 
+Weitere Liste von Storage Engines:  
+https://dev.mysql.com/doc/refman/8.0/en/storage-engines.html
+
+Storage Engine setzen:  
+```
+SET default_storage_engine=MyISAM;
+```
 ### Benutzer und Berechtigungen
 1. Erstellen Sie eine Demo-Datenbank mit zwei Tabellen
 Befele: 
@@ -69,6 +76,13 @@ Oben gemacht.
 1. Transaktions-Isolation : Verfizieren Sie welche Transaktions-Isolation auf Ihrem Server aktiviert ist. Dokumentieren Sie, was das bezüglich den Anomalien für Ihre Installation bedeutet.
 Befehl:  
 `SELECT @@global.transaction_ISOLATION;`  
+
+Oder mit diesem Befehl:
+`SHOW VARIABLES LIKE 'transaction_isolation';`
+
+Setzne der Isolation Levels:  
+`SET TRANSACTION ISOLATION LEVEL SERIALIZABLE;`
+
 Resultat: REPEATABLE-READ -> Dirty Read sind unmöglich, Lost Updates sind unmöglich, Nonrepeatable Read sind unmöglich und Phatom Read sind möglich.
 2. Exportieren Sie die aktuelle Liste an System-Variablen
 3. Netzwerkkonfiguration DBMS-Server anpassen und dokumentieren
@@ -77,3 +91,4 @@ Resultat: REPEATABLE-READ -> Dirty Read sind unmöglich, Lost Updates sind unmö
 1. Protokollierung langsamer Abfragen aktivieren
 2. Listen Sie den Inhalt des Data-Directories auf
 3. Dokumentieren Sie die Default-Datenbanken mysql, sys, performance_schema
+

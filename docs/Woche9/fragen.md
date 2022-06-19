@@ -22,6 +22,8 @@ Anwendung von Security/Berechtigungen auf eine Umgebung
 Transkationsisolation anwenden und konfigurieren  
 - Hier habe ich die Transkationsisolation beschrieben:  
     [Transkation Isolation](Woche4/mysqlkonfig?id=benutzer-und-berechtigungen) 
+- Hier nochmals
+    [Transkation](/Woche2/transaktion.md)
 
 Protokollierung langsamer Abfragen aktivieren  
 - Da ich keine Lösung im Skript dokumentiert habe, habe ich es jetzt nachträglich hinzugefügt:  
@@ -40,10 +42,19 @@ Protokollierung langsamer Abfragen aktivieren
     SET GLOBAL slow_query_log=0;
     ```
 
+
+    Die Konfig Datei ist gespeichert unter:
+    /etc/mysql/mysql.conf.d/mysqld.cnf
+
+    slow_query_log = 1;
+
 ### Tag 5
 Umsetzung Referenzielle Integrität  
 - Hier habe ich alles über Primär und Fremdschlüssel beschrieben:  
-    [Primär und Fremdschlüssel](Woche5/index.md) 
+    [Primär und Fremdschlüssel](/Woche3/erm_erd.md)  
+    Es kann ken Datensatz gelöscht werden, welcher als Primarschlüssel verwendet wird und jemand auf diesen Referenziert.  
+    Dazu kann es nicht auf etwas referenziert werden, was es nicht gibt.  
+
 
 Indexierungstypen aufgrund Anforderungen umsetzen  
 - Hier habe ich alles über das Indexes beschrieben:  
@@ -150,6 +161,7 @@ Triggers: Sinn, Anwendung und Syntax erläutern
 * [Views](Woche8/theorie?id=views)  
 * [Praktisches Beispiel Views](Woche8/sakila?id=anzeigen)  
 * [Triggers](Woche8/sakila?id=anzeigen)  
+
 ### Tag 10
 Auftrag : (Theorie) Schlechte Query - verbessern Sie die Performance  
 * [Performance](Woche9/performance.md)  

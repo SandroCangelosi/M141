@@ -28,7 +28,7 @@
     * [Woche 6 - Import und Export](Woche6/import_export.md)
     * [Woche 6 - Backup und Restore](Woche6/backup_restore.md)
 
-* [Woche 9 - Performance](Woche9/performance.md)
+* [Performance](Woche9/performance.md)
     * [Woche 9 - Performance](Woche9/performance.md)
 
 * [MongoDB](Woche10/mongodb.md)
