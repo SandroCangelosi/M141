@@ -9,7 +9,7 @@ BASE -> Konsistenz nicht garantiert, Horizontal skalierbar (MongoDB), Hohe Kompl
 
 # Transaktionen, Anomalien, Zusammenhang Performance
 
-Transaktion: Folgerung von SQL Anweisungen welche als Einheit ausgeführt wird. (Commit). Entweder Ganz oder Nicht :)
+Transaktion: Folgerung von SQL Anweisungen welche als Einheit ausgeführt wird. (Commit). Entweder Ganz oder Nicht
 
 Probleme im ACID Prinzip (Dirty Read, Lost Updates, Non-Repeatable Reads, Phantom Read). Je nach Einstellung hat man bessere oder schlechtere Performance: Serializable ergibt die schlechteste Performance aber die sichersten Transaktionen, Read Uncommitted bietet eine höhere Performance mit dem Risiko von allen 4 Anomalien. 
  
