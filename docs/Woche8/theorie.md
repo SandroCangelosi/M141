@@ -122,6 +122,13 @@ GRANT EXECUTE ON PROCEDURE db.storage_procedure TO 'user'@'localhost';
 Ein Trigger ist ein benutzerdefinierter SQL-Befehl, der während eines INSERT -, DELETE - oder UPDATE -Vorgangs automatisch aufgeführt wird.  
 Der Trigger wird ausgeführt, wenn ein bestimmter Code Abschnitt durchlaufen ist.  Die Triggers werden hautpsächlich für Redundazen verwednet.  
 
+### Trigger erstellen
+Trigger erstellen mit dem Befehl:  
+```
+CREATE TRIGGER triggername BEFORE INSERT ON datenbank 
+FOR EACH ROW SET @sum = @sum + NEW.amount;
+```
+
 ## Funktionen 
 Um alle Funktionen einer DB anzeigen zu lassen kann dieser Befehl verwendet werden:  
 ```sql

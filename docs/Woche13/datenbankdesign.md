@@ -7,8 +7,11 @@ Wie hoch soll die Performance sein?
 Wie werden sich die Daten verändern und anwachsen?
 
 ## Relational vs. Schemaless
-**Relational:** Daten werden in verschiedene Tabellen augeteilt. Joins werden verwendet um Daten aus Tabellen hinzuzufügen.  
-**Schemaless:** Daten werden in Array und Nested Documents gespeichert. Hier werden keine separaten Collections erstellt.  
+**Relational:** Daten werden in verschiedene Tabellen aufgeteilt.  
+Joins werden verwendet um Daten aus Tabellen hinzuzufügen.  
+
+**Schemaless:** Daten werden in Array und Nested Documents gespeichert.  
+Hier werden keine separaten Collections erstellt.  
 
 ## Embedding vs. Referencing
 **Referencing:** "Foreign-Key - Public-Key"-Vorgehen. Es wird der Operator $lookup dafür verwendet.  
@@ -28,11 +31,11 @@ Vorteile:
 - Alle CRUD-Operationen von einem Document sind ACID-kompatibel  
 
 Nachteile:  
-- Eine grössere Query auf viele Dokumente kann durch die doppelten Daten die Performance beeinflussen  
+- Eine grössere Query auf viele Dokumente kann durch die doppelten Daten die Performance beeinflussen.  
 
 ## Wichtigste Regeln
 1. Generell sollen Embedded Dokumente verwendet werden, ausser es gibt gute Gründe dagegen  
-2. Wenn man ein einzelnes Document einzeln anzeigen zu möchte,sollte man es nicht zu embedden  
+2. Wenn man ein einzelnes Document einzeln anzeigen zu möchte, sollte man es nicht zu embedden  
 3. Generell Joins/Lookups nach möglichkeit vermeiden. Hilft es allerdings ein performanteres Schema zu erreichen, dann soll man es trotzdem verwenden    
 4. Nested Arrays sollten nicht "unbegrenzt" gross werden können  
 5. Many-To-Many - hier muss mit Referenzen gearbeiten werden  

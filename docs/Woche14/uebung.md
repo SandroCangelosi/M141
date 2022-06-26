@@ -45,7 +45,7 @@ Zur Kontrolle, damit der Cluster funktioniert soll man sich auf dem Master Node 
 docker-compose exec mysql_node01 bash
 ```
 
-Dann mit dem Root benutzer anmelden
+Dann mit dem Root Benutzer anmelden
 ```
 mysqlsh --js root@mysql_node01
 ```
@@ -58,7 +58,7 @@ mysql-js> cluster.status()
 ![Cluster Status](getcluster.png)  
 
 Als Info:  
-Der Docker COntainer kann mit diesem Befehl gestoppt werden.  
+Der Docker Container kann mit diesem Befehl gestoppt werden.  
 ```
 docker-compose down
 ```

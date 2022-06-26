@@ -20,7 +20,7 @@ Dann habe ich im Internet folgende Lösung gefunden:
 sudo apt-get install npm
 ```
 
-Um die Applikation schlussendlic zu Starten, muss dieser Befehl verwendet werden:  
+Um die Applikation schlussendlich zu starten, muss dieser Befehl verwendet werden:  
 ```
 npm run dev
 ```

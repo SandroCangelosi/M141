@@ -80,6 +80,7 @@ Export der Datenbank ins binäre Daten:
 ```bash
 mongodump --host=localhost --port=27017  --out=/opt/backup/mongodump-2011-10-24
 ```
+*oder mittels --archive=pfad*
 
 Nach dem Export sehen die Daten so aus:  
 ![Datenexport](export.png)  
@@ -92,6 +93,7 @@ Import der Dateien:
 ```bash
 mongorestore --uri="mongodb://user@mongodb1.example.net:27017/?authSource=admin" /opt/backup/mongodump-2011-10-24
 ```
+*oder mittels --archive=pfad*
 
 Ausgabe:  
 ![Datenimport](import.png)  

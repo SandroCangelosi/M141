@@ -1,6 +1,7 @@
 # Sharding und Replication
-Sharding : Ein grosses System wird in mehrere kleinere Systeme aufgeteilt. Die Systeme telen sich die Aufgaben, damit jede einzelne Node ihre eigenen Aufgaben ausführt. Herausforderung: Implementierung dieser "Sharding-Methoden".  
-Replication : Die gesamte Arbeitslast wird auf die Nodes "gleich" verteilt. So kann sich der Primäre Node für die Write Anfragen kümmern und die Sekundäre Nodes um die Read Anfragen. Herausforderung: Die Anfragen müssen clever zu verteilen.  
+**Sharding:** Ein grosses System wird in mehrere kleinere Systeme aufgeteilt. Die Systeme teilen sich die Aufgaben, damit jede einzelne Node ihre eigenen Aufgaben ausführt. Herausforderung: Implementierung dieser "Sharding-Methoden".  
+
+**Replication:** Die gesamte Arbeitslast wird auf die Nodes "gleich" verteilt. So kann sich der Primäre Node für die Write Anfragen kümmern und die Sekundäre Nodes um die Read Anfragen. Herausforderung: Die Anfragen müssen clever zu verteilen.  
 
 Sharding und Replication können auch zusammen verwendet werden.  
 ## Skalierung
@@ -257,7 +258,7 @@ rs.status()
 ![Mongod.conf](status1.png)   
 ![Mongod.conf](status2.png)  
 
-Node / Server hiinzufügen und entfernen (in MongoDB):  
+Node / Server hinzufügen und entfernen (in MongoDB):  
 ```
 rs.add("Test")
 rs.remove(Test)
